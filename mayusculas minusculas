@@ -1,0 +1,15 @@
+#introducir mayusculas y minusculas
+from string import uppercase
+from string import lowercase
+
+#convertir texto en letra 
+let=raw_input('ingrese una letra')
+
+#introducir condiciones 
+if let>='a' and let<='z':
+    print ("la letra es miniscula")
+else:
+    if let>='A' and let<='Z':
+        print ("la letra es mayuscula")
+    else:
+        print ("no es nada") 
